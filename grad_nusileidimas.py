@@ -11,5 +11,6 @@ def grad_fun(f, gradF, x0, gamma, eps, Nmax):
         if np.linalg.norm(g) < eps: # jeigu gradiento norma mažesnė nei epsilon
             break
         x = x - gamma * g
+        k = k + 1
 
     return x
