@@ -158,6 +158,7 @@ def spausdinti_rezultatus(rezultatai):
             
             print(
                 f"   {tasko_pav} -> Sprendinys: [{x_opt:.8f} {y_opt:.8f}], "
+                f"Funkcijos iskvietimu: {r['f_kiekis']}, "
                 f"f: {f_val:.8f}, Iteraciju: {r['iteracijos']}, Gradiento iskvietimu: {r['g_kiekis']}"
             )
         print()
